@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	color: #e78267;
+}
+
+a{
+	text-decoration: none;
+	color: #7d97ad;
+}
+
+/* Header*/
+
+.header{
+	border-bottom: 3px solid #7d97ad;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Lora', serif;
+	justify-content: space-between;	
+	margin-bottom: 20px;
+	min-height: 140px;
+
+}
+
+#myImg{
+	border-radius: 50%;
+	height: 95px;
+	margin-top: 10px;	
+	width: 95px;
+	box-shadow: -3px 3px 3px #e78267;
+}
+
+.title{
+	text-align: end;
+}
+
+.main-title{
+	font-weight: 500;
+}
+.title-desc{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/*Center Picture*/
+
+}
+.pic{
+	display: flex;
+}
+
+.picture-main img{
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+
+/* Featured work*/
+
+
+.myWorks-header{
+	color: #7d97ad;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 8px;
+	text-decoration: underline;
+}
+
+.row{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.col{
+	width: 32%;
+    margin-bottom: 0 auto;
+    text-align: center;
+}
+
+.col img{
+	border-radius: 5px;
+	width: 100%;
+}
+
+.col h4{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+	margin-top: 3px;
+	margin-bottom: 4px;
+}
+.col a{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+/* Footer */
+
+.developer{
+	font-weight: 400;
+	font-size: 17px;
+	text-align: center;
+	color: #ccc;
+}
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1045px){
+	.container{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 606px) and (max-width: 749px){
+	.container{
+		width:100%;
+
+	}
+	
+	.row{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.col{
+		width: 100%;
+		margin: 5px 0px 5px 0px;
+		border: 2px solid #aaa;
+
+	}
+	.col img{
+		border-radius: 0px;
+	}
+	.col h4{
+		font-size: 21px;
+	}
+	.col a{
+		font-weight: 200;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 605px) {
+	.container{
+		width: 100%;
+		text-align: center;
+	}
+	.header{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.title{
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	.main-title{
+		font-size: 25px;
+		margin-bottom: 2px;
+	}
+
+	.main-title-desc{
+		margin-top: 2px;
+		font-size: 18px;
+	}
+	.myWorks-header{
+		font-size: 25px;
+	}
+	.row{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.col{
+		width: 100%;
+		margin: 5px 0px 5px 0px;
+		border: 2px solid #aaa;
+
+	}
+	.col img{
+		border-radius: 0px;
+	}
+	.col h4{
+		font-size: 18px;
+	}
+	.col a{
+		font-weight: 200;
+		font-size: 16px;
+	}
+
+}
+
+
+
+
+
+
+

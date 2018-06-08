@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Priyadarshi Kumar">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- Header section -->
+		<header class="header">
+			<img id="myImg" src="images/myPhoto.jpg" alt="Priyadarshi">
+			<div class="title">
+				<h1 class="main-title"> PRIYADARSHI KUMAR</h1>
+				<p class="title-desc"> FRONT-END NINJA</p>
+			</div>
+		</header>
+
+		<!-- center picture section -->
+		<div class="pic">
+			<picture class="picture-main">
+				<img
+				sizes="(max-width: 960px) 100vw, 960px"
+				srcset="
+				images/code_jf39rj_c_scale,w_200.jpg 200w,
+				images/code_jf39rj_c_scale,w_415.jpg 415w,
+				images/code_jf39rj_c_scale,w_569.jpg 569w,
+				images/code_jf39rj_c_scale,w_704.jpg 704w,
+				images/code_jf39rj_c_scale,w_843.jpg 843w,
+				images/code_jf39rj_c_scale,w_938.jpg 938w,
+				images/code_jf39rj_c_scale,w_960.jpg 960w"
+				src="images/code_jf39rj_c_scale,w_960.jpg"
+				alt=" main code image">
+			</picture>	
+		</div>
+		
+		<!--featured work section -->
+		<article class="my-works">
+			<h2 class="myWorks-header">Featured Works</h2>
+			<div class="row">
+				<section class="col">
+					<img src="images/appify.jpg" alt="appify image">
+					<h4>Appify</h4>
+					<a href="#">http://github.com/appify/</a>
+				</section>
+				<section class="col">
+					<img src="images/bokeh.jpg" alt="bokeh image">
+					<h4>Bokeh</h4>
+					<a href="#">http://github.com/bokeh/</a>
+				</section>
+				<section class="col">
+					<img src="images/sunflower.jpg" alt="sunflower image">
+					<h4>Sunflower</h4>
+					<a href="#">http://github.com/sunflower/</a>
+				</section>
+			</div>
+		</article>
+		
+		<!--footer section-->
+		<footer class="developer">
+			<p>Portfolio by Priyadarshi Kumar</p>
+		</footer>
+
+
+	</div>
+</body>
+</html>
